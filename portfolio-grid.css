@@ -1,9 +1,1 @@
-.work-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-@media (max-width: 650px) {
-  .work-grid {
-    grid-template-columns: 1fr;
-  }
-}
+.verbatim-cover{position:relative;width:100%;container-type:inline-size;overflow:hidden;background:#1a1c20;color:white}.verbatim-cover img{width:100%;height:auto;display:block}.verbatim-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,9,15,.77),rgba(5,9,15,.38) 56%,transparent 88%);pointer-events:none}.verbatim-copy{position:absolute;z-index:1;left:5%;top:8%;bottom:8%;display:flex;flex-direction:column;justify-content:space-between;max-width:74%;text-shadow:0 1px 5px #0008}.verbatim-copy span{font:800 clamp(.6rem,2.2cqw,1rem) system-ui;letter-spacing:.1em}.verbatim-copy strong{font:900 clamp(1rem,6.1cqw,3rem)/.95 system-ui;letter-spacing:-.055em}

@@ -9,3 +9,6 @@
 @media(max-width:650px){.section-wrap{padding-left:20px;padding-right:20px}.site-header{min-height:76px;padding:8px 14px;gap:6px}.site-header .brand{width:200px;height:57px}.site-header nav a:not(.nav-cta){display:none}.site-header nav .nav-cta{font-size:.78rem;padding:9px 10px}.hero{padding:48px 20px 72px;gap:30px}.hero h1{font-size:clamp(2.65rem,11vw,4rem)}.hero-copy>p{font-size:1rem}.hero-actions{gap:18px}.preview-caption span{display:none}.work-section{padding-top:72px;padding-bottom:78px}.section-head{display:block}.section-head>p{margin:18px 0 0}.work-grid{grid-template-columns:1fr;gap:20px}.approach{padding:74px 0}.approach-grid,.contact{grid-template-columns:1fr}.contact{padding-top:75px;padding-bottom:85px}.inquiry{padding:22px}.footer-inner{flex-wrap:wrap}.footer-inner p{order:3;width:100%}}
 @media(max-width:365px){.site-header .brand{width:171px;height:52px}.site-header nav .nav-cta{font-size:.72rem;padding:8px}.site-header{padding:7px 10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project{transition:none}}
+
+/* Game artwork is presented at its intended social-card ratio. */
+.project-image img[src$="/og.png"]{aspect-ratio:1200/630;object-fit:cover}
